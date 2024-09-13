@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Numans&family=Roboto:wght@100;300&display=swap');
+html,body{
+    background-image: url('../IMG/pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans',sans-serif;
+}
+.container{
+    height: 100%;
+    align-content: center;
+}
+.card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 35px;
+}
+
+.social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: pink;
+}
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+.card-header h3{
+    color: white;
+}
+.social_icon{
+    position: absolute;
+    right: 20px;
+    top:-5px
+}
